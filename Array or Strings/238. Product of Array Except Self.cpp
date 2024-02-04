@@ -3,7 +3,7 @@ public:
     vector<int> productExceptSelf(vector<int>& nums) {
         int n = nums.size();    //inputting the size of the nums in n
         vector<int> ans(n);
-        vector<int> left_Product(n); 
+        vector<int> left_Product(n);  
         vector<int> right_Product(n);
         left_Product[0] = 1;
         for(int i=1; i<n; i++){
