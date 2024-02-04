@@ -16,6 +16,6 @@ public:
         for(int i=0; i<n; i++){
             ans[i] = left_Product[i] * right_Product[i];
         }
-        return ans;
+        return ans; 
     }
 };
