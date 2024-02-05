@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
         int maxiCan = INT_MIN;
-        for(auto i: candies) {
+        for(auto i: candies) { 
             maxiCan = max(maxiCan, i);
         }
         vector<bool> v;
