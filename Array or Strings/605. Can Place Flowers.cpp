@@ -11,7 +11,7 @@ public:
                     flowerbed[i] = 1;
                     count++;
                 }
-            }
+            } 
         }
         return count>=n;
     } 
