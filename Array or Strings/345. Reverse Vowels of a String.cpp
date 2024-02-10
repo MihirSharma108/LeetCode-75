@@ -1,5 +1,5 @@
 //Step1 :- In this code here we are going to find the vowels
-//and reverse them
+//Step2 :- and reverse them
 class Solution {
 public:
     bool checker(char c) {
