@@ -1,4 +1,5 @@
 //in this code here we goona fins the vowels
+//and reverse them
 class Solution {
 public:
     bool checker(char c) {
