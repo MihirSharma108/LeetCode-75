@@ -13,7 +13,7 @@ public:
         for(int i=n-2; i>=0; i--){        //Loop 1
             right_Product[i] = right_Product[i+1] * nums[i+1];
         }
-        for(int i=0; i<n; i++){
+        for(int i=0; i<n; i++){           //Loop2
             ans[i] = left_Product[i] * right_Product[i];
         }
         return ans;  
