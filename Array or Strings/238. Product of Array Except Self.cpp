@@ -10,7 +10,7 @@ public:
             left_Product[i] = left_Product[i-1] * nums[i-1];
         }
         right_Product[n-1] = 1;
-        for(int i=n-2; i>=0; i--){        //Loop 1
+        for(int i=n-2; i>=0; i--){        //Loop_1
             right_Product[i] = right_Product[i+1] * nums[i+1];
         }
         for(int i=0; i<n; i++){           //Loop2
