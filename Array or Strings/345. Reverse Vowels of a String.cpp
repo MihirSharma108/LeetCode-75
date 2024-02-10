@@ -1,4 +1,4 @@
-//in this code here we goona fins the vowels
+//in this code here we are going to find the vowels
 //and reverse them
 class Solution {
 public:
