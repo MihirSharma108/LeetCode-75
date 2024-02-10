@@ -1,4 +1,4 @@
-//Step1 :- In this code here we are going to find the vowels
+//Step_1 :- In this code here we are going to find the vowels
 //Step2 :- and reverse them
 class Solution {
 public:
