@@ -1,3 +1,4 @@
+//in this code here we goona fins the vowels
 class Solution {
 public:
     bool checker(char c) {
