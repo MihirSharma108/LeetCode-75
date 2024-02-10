@@ -6,7 +6,7 @@ public:
         vector<int> left_Product(n);  //creation of the arr left_Product
         vector<int> right_Product(n); //creation of the arr right_Product
         left_Product[0] = 1;
-        for(int i=1; i<n; i++){
+        for(int i=1; i<n; i++){            //Loop1
             left_Product[i] = left_Product[i-1] * nums[i-1];
         }
         right_Product[n-1] = 1;
